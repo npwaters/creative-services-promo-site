@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+
+.div-page {
+    width: auto
+}
+
+#navbar {
+    height: 100px;
+    background-color: lightgray
+}
+
+#welcome {
+    height: 100vh
+}
+#welcome > .div-welcome-content {
+    margin: auto;
+    position: relative;
+    top: 15%;
+    width: 60%;
+    height: 40%;
+    background-color: lightgray
+}
+
+.div-welcome-content-text {
+    height: 75%;
+    width: 100%;
+    background-color: coral
+}
+
+.div-welcome-content-buttons {
+    position: relative;
+    height: 25%;
+    width: 100%;
+    background-color: lightgray
+}
+
+.div-welcome-buttons {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    /*background-color: beige;*/
+    
+}
+
+.div-welcome-button-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /*background-color: darkgray*/
+}
+
+
+.div-welcome-button {
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: cadetblue;
+}
+
+
+
+.div-vertical-center {
+    margin: auto;
+    vertical-align: middle
+}
+.div-horizontal-center {
+    margin: 0 auto
+}
+
+
+
+#footer {
+    height: 250px;
+    background-color: lightgray
+}
+
+
+.div-layout {
+    border: cornflowerblue;
+    border-style: none;
+    border-width: 1px
+}
+
+.div-hflow-left {
+    float: left
+}
