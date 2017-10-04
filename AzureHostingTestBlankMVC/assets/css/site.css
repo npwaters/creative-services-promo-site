@@ -54,27 +54,45 @@ body {
     /*background-color: darkgray*/
 }
 
+/*centering:
+https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/*/
 
-.div-welcome-button {
+.div-absolute-centered {
     position: absolute;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
-    width: 90%;
-    height: 70%;
     margin: auto;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+}
+.div-welcome-button {
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    width: 90%;
+    height: 70%;
     background-color: cadetblue;
 }
 
+.div-navbar-link-container {
+    position: relative;
+    width: 10em;
+    height: 100%;
+    /*background-color: brown*/
+}
 
+.div-navbar-link {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: orange
+}
 
 .div-vertical-center {
-    margin: auto;
-    vertical-align: middle
+    /*margin: auto;
+    vertical-align: middle*/
+    top: 50%;
+    transform: translateY(-50%)
 }
 .div-horizontal-center {
     margin: 0 auto
@@ -96,4 +114,8 @@ body {
 
 .div-hflow-left {
     float: left
+}
+
+.div-hflow-right {
+    float: right
 }
