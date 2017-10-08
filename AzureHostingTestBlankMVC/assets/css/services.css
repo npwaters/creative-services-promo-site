@@ -1,0 +1,55 @@
+﻿body {
+}
+
+
+#services-content-container {
+    height: 100vh
+}
+
+#services-content-text-container {
+    position: relative;
+    height: 20%;
+    width: auto;
+    background-color: azure
+}
+
+#services-content-text {
+    width: 70%;
+    height: 90%;
+    background-color: coral
+}
+
+
+#services-content-cards {
+    display: table;
+    height: 50%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: blanchedalmond
+}
+
+.services-content-card-container {
+    display: table-cell;
+    width: auto;
+    height: 100%;
+    padding: 0.75rem;
+    /*border-right: black solid 2px*/
+}
+
+.services-content-card {
+    height: 100%;
+    width: 100%;
+    /*background-color: cornflowerblue*/
+}
+
+.services-content-card-icon {
+    height: 25%;
+    width: auto;
+    background-color: cornflowerblue
+}
+
+.services-content-card-text {
+    height: 75%;
+    width: auto;
+    background-color: darkgray
+}

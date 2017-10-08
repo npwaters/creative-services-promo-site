@@ -79,6 +79,8 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="home.html" />
+    <Content Include="services.html" />
+    <Content Include="assets\css\services.css" />
     <Content Include="test.html" />
     <Content Include="Web.config" />
   </ItemGroup>

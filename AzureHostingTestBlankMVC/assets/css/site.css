@@ -83,9 +83,20 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 
 .div-navbar-link {
     position: absolute;
+    display: table;
     width: 80%;
     height: 60%;
-    background-color: orange
+    background-color: coral;
+    text-align: center
+}
+
+.font-navbar {
+    font-size: 80%;
+    display: table-cell;
+    /*line-height: 80%;*/
+    /*margin: 0;*/
+    vertical-align: middle;
+    color: white
 }
 
 .div-vertical-center {
@@ -118,4 +129,10 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 
 .div-hflow-right {
     float: right
+}
+
+.div-cta-container {
+    width: 80%;
+    height: 10%;
+    background-color: coral
 }
