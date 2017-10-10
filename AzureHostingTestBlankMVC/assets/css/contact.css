@@ -1,0 +1,55 @@
+﻿body {
+}
+
+
+#contact-content-text-container {
+    position: relative;
+    height: 10%;
+    width: auto;
+    background-color: azure
+}
+
+#contact-content-text {
+    width: 40%;
+    height: 90%;
+    background-color: coral
+}
+
+#contact-content-form-image-container {
+    display: table;
+    height: 70%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: blanchedalmond
+
+}
+
+.contact-content-form-image {
+    display: table-cell;
+    padding: 0.75rem;
+    height: 100%;
+    width: auto;
+    background-color: darkgray
+}
+
+.contact-content-form-image-child {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    background-color: cornflowerblue
+}
+
+.contact-content-form-container {
+    position: absolute;
+    height: auto;
+    width: 100%
+}
+
+.contact-content-form-item {
+    height: 10%;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    background-color: whitesmoke
+}

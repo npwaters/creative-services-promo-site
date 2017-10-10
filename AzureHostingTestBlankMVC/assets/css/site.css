@@ -14,10 +14,10 @@ body {
     background-color: lightgray
 }
 
-#welcome {
+#site-navbar-content-container {
     height: 100vh
 }
-#welcome > .div-welcome-content {
+#site-navbar-content-container > .div-welcome-content {
     margin: auto;
     position: relative;
     top: 15%;
@@ -134,5 +134,5 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 .div-cta-container {
     width: 80%;
     height: 10%;
-    background-color: coral
+    background-color: darkseagreen
 }
