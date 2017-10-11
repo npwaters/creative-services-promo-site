@@ -32,6 +32,19 @@ body {
     background-color: coral
 }
 
+.div-heading-text-normal {
+    width: 40%;
+    height: 90%;
+    background-color: darkgray
+}
+
+.div-heading-text-normal-container {
+    position: relative;
+    height: 10%;
+    width: auto;
+    background-color: azure
+}
+
 .div-welcome-content-buttons {
     position: relative;
     height: 25%;

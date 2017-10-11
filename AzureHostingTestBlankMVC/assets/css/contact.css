@@ -1,20 +1,6 @@
 ﻿body {
 }
 
-
-#contact-content-text-container {
-    position: relative;
-    height: 10%;
-    width: auto;
-    background-color: azure
-}
-
-#contact-content-text {
-    width: 40%;
-    height: 90%;
-    background-color: coral
-}
-
 #contact-content-form-image-container {
     display: table;
     height: 70%;
