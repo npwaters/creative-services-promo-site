@@ -70,6 +70,7 @@
     <Content Include="assets\css\about.css" />
     <Content Include="assets\css\site.css" />
     <Content Include="assets\css\contact.css" />
+    <Content Include="assets\css\work.css" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest3 - Web Deploy.pubxml" />
@@ -84,6 +85,7 @@
     <Content Include="index.html" />
     <Content Include="contact.html" />
     <Content Include="about.html" />
+    <Content Include="work.html" />
     <Content Include="pagetemplate.html" />
     <Content Include="services.html" />
     <Content Include="assets\css\services.css" />
