@@ -16,7 +16,20 @@
 #services-content-text {
     width: 70%;
     height: 90%;
-    background-color: coral
+    text-align: center;
+    background-color: darkgray
+}
+
+.div-services-content-text-hero {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1rem
+}
+
+.div-services-content-text-normal {
+    width: 80%;
+    height: auto;
+    margin: 0 auto
 }
 
 
@@ -30,7 +43,8 @@
 
 .services-content-card-container {
     display: table-cell;
-    width: auto;
+    box-sizing: border-box;
+    /*width: auto;*/
     height: 100%;
     padding: 0.75rem;
     /*border-right: black solid 2px*/
@@ -43,13 +57,21 @@
 }
 
 .services-content-card-icon {
-    height: 25%;
+    height: 35%;
     width: auto;
     background-color: cornflowerblue
 }
 
 .services-content-card-text {
-    height: 75%;
-    width: auto;
+    height: 65%;
+    width: 100%;
     background-color: darkgray
+}
+
+#services-text-hero {
+    font-size: 3.5rem
+}
+
+#services-text-normal {
+    font-size: 1.25rem
 }
