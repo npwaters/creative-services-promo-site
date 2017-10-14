@@ -18,6 +18,17 @@
     background-color: cornflowerblue
 }
 
+.div-about-content-people-aspect {
+    padding-bottom: 66.66%;
+    width: 100%;
+    position: relative;
+}
+
+.div-about-content-people-aspect > .div-about-content-people {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
 .div-about-content-people {
     display: table-cell;
     height: 100%;
@@ -37,4 +48,12 @@
     height: 35%;
     width: 100%;
     background-color: darkgray;
+}
+
+.img-about-people {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    /*resize: both*/
 }
