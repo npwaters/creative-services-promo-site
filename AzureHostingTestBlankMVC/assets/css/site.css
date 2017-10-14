@@ -16,7 +16,8 @@ body {
 }
 
 #site-navbar-content-container {
-    height: 100vh
+    height: 100vh;
+    background-image: url(/assets/images/AS6_9781-279.jpg)
 }
 #site-navbar-content-container > .div-welcome-content {
     margin: auto;
@@ -24,14 +25,14 @@ body {
     top: 15%;
     width: 60%;
     height: 40%;
-    background-color: lightgray
+    /*background-color: lightgray*/
 }
 
 .div-welcome-content-text {
     height: 75%;
     width: 100%;
     text-align: center;
-    background-color: darkgray
+    /*background-color: darkgray*/
 }
 
 .div-welcome-content-text-hero {

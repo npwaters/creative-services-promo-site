@@ -71,6 +71,7 @@
     <Content Include="assets\css\site.css" />
     <Content Include="assets\css\contact.css" />
     <Content Include="assets\css\work.css" />
+    <Content Include="assets\images\AS6_9781-279.jpg" />
     <Content Include="assets\images\IMG_3353-1779%400,1x.jpg" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
