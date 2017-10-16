@@ -5,6 +5,9 @@ body {
     font-family: sans-serif
 }
 
+a:hover {
+    background-color: yellow
+}
 
 .div-page {
     width: auto
