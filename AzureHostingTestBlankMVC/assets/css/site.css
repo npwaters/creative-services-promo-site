@@ -26,7 +26,12 @@ a:hover {
     height: 100vh;
     background-image: url(/assets/images/AS6_9781-279.jpg)
 }
-#site-navbar-content-container > .div-welcome-content {
+
+.section {
+    width: 100%;
+    height: 100%
+}
+.div-welcome-content {
     margin: auto;
     position: relative;
     top: 15%;
