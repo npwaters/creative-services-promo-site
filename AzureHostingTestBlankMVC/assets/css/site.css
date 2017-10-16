@@ -9,6 +9,10 @@ a:hover {
     background-color: yellow
 }
 
+.div-navbar-link:hover {
+    background-color: coral
+}
+
 .div-page {
     width: auto
 }
@@ -118,8 +122,12 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     display: table;
     width: 80%;
     height: 60%;
-    background-color: coral;
+    background-color: darkgray;
     text-align: center
+}
+
+.div-navbar-link-cta {
+    background-color: coral !important
 }
 
 .font-navbar {
