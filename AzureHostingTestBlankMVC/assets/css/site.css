@@ -24,6 +24,9 @@ a:hover {
 
 #site-navbar-content-container {
     height: 100vh;
+}
+
+.site-navbar-content-container-welcome {
     background-image: url(/assets/images/AS6_9781-279.jpg)
 }
 
