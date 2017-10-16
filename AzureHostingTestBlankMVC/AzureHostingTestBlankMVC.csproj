@@ -71,8 +71,12 @@
     <Content Include="assets\css\site.css" />
     <Content Include="assets\css\contact.css" />
     <Content Include="assets\css\work.css" />
+    <Content Include="assets\images\0o1a3772-1216%401x.jpg" />
+    <Content Include="assets\images\0o1a3772-1216_canvas.jpg" />
+    <Content Include="assets\images\0o1a3772-1216_cropped.jpg" />
     <Content Include="assets\images\AS6_9781-279.jpg" />
     <Content Include="assets\images\IMG_3353-1779%400,1x.jpg" />
+    <Content Include="assets\images\IMG_3353-1779_cropped.jpg" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest3 - Web Deploy.pubxml" />

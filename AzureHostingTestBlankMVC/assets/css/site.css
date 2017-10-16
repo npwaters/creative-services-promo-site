@@ -58,7 +58,7 @@ body {
     position: relative;
     height: 25%;
     width: 100%;
-    background-color: lightgray
+    /*background-color: lightgray*/
 }
 
 .div-welcome-buttons {
@@ -93,7 +93,14 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     transform: translate(-50%, -50%);*/
     width: 90%;
     height: 70%;
-    background-color: cadetblue;
+}
+
+.div-welcome-button-cta {
+    background-color: coral
+}
+
+.div-welcome-button-learnmore {
+    background-color: cadetblue
 }
 
 .div-navbar-link-container {
