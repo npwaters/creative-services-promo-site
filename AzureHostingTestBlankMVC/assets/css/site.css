@@ -103,7 +103,7 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     bottom: 0;
     right: 0;
 }
-.div-welcome-button {
+.div-content-button {
     /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);*/
@@ -111,7 +111,7 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     height: 70%;
 }
 
-.div-welcome-button-cta {
+.div-content-button-cta {
     background-color: coral
 }
 
@@ -181,9 +181,30 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 }
 
 .div-cta-container {
-    width: 80%;
+    width: 70%;
     height: 10%;
-    background-color: darkseagreen
+    /*background-color: darkseagreen*/
+}
+
+.div-cta-text-container {
+    position: relative;
+    height: 100%;
+    width: 80%
+}
+
+.div-cta-text {
+    height: 70%;
+    width: 100%;
+}
+
+.div-cta-button-container {
+    position: relative;
+    height: 100%;
+    width: 20%
+}
+
+.cta-text {
+    font-size: 2.2rem
 }
 
 #welcome-text-hero {
