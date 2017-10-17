@@ -58,7 +58,8 @@ a:hover {
 
 .div-heading-text-normal {
     width: 40%;
-    height: 90%;
+    height: 70%;
+    text-align: center;
     background-color: darkgray
 }
 
@@ -191,4 +192,8 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 #welcome-text-normal {
     font-size: 2rem;
     
+}
+
+#header-text-hero {
+    font-size: 3.5rem
 }
