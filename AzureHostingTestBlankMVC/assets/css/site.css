@@ -27,7 +27,8 @@ a:hover {
 }
 
 .site-navbar-content-container-welcome {
-    background-image: url(/assets/images/AS6_9781-279.jpg)
+    background-image: url(/assets/images/AS6_9781-279.jpg);
+    background-size: cover
 }
 
 .section {
@@ -208,13 +209,22 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 }
 
 #welcome-text-hero {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 #welcome-text-normal {
-    font-size: 2rem;
+    font-size: 1.25rem;
     
 }
 
 #header-text-hero {
     font-size: 3.5rem
+}
+
+.img-site {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    resize: both
 }
