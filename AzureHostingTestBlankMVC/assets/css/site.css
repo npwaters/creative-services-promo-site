@@ -17,13 +17,23 @@ a:hover {
     width: auto
 }
 
+#header-nav {
+    height: 10%
+}
 #navbar {
-    height: 100px;
+    position: relative;
+    height: 100%;
     background-color: lightgray
 }
 
 #site-navbar-content-container {
     height: 100vh;
+}
+
+.div-logo {
+    padding-left: 2rem;
+    height: 100%;
+    width: auto
 }
 
 .site-navbar-content-container-welcome {
@@ -227,4 +237,10 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     margin: 0 auto;
     vertical-align: middle;
     resize: both
+}
+
+.img-logo {
+    margin-left: 2rem;
+    max-height: 100%;
+    width: auto;
 }

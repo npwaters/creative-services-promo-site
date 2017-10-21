@@ -82,6 +82,7 @@
     <Content Include="assets\images\IMG_3353-1779_cropped.jpg" />
     <Content Include="assets\images\IMG_8444-88_cropped.jpg" />
     <Content Include="assets\images\JM-Industrial-YAX_4929.jpg" />
+    <Content Include="assets\images\logo.png" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest3 - Web Deploy.pubxml" />
