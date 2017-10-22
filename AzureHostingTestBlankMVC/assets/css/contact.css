@@ -14,7 +14,7 @@
     display: table-cell;
     padding: 0.75rem;
     height: 100%;
-    width: auto;
+    width: 50%;
     background-color: darkgray
 }
 
@@ -27,9 +27,13 @@
     background-color: cornflowerblue
 }
 
-.contact-content-contact-details {
+.contact-content-contact-details-container {
     height: 80%;
     width: 100%
+}
+
+.contact-content-contact-details {
+    position: absolute
 }
 
 .contact-content-external-links-container {
@@ -52,12 +56,37 @@
 }
 
 .contact-content-form-item {
-    height: 10%;
+    position: relative;
+    height: 8%;
     width: 100%;
     margin-bottom: 0.75rem;
+}
+
+.contact-content-form-item-input {
     background-color: whitesmoke
+}
+
+.contact-content-form-item-submit {
+    position: relative;
+    background-color: coral
 }
 
 .contact-social-icons {
     margin-left: 1rem
+}
+
+.div-form-label-text {
+    position: absolute
+}
+
+.div-submit-text {
+    height: auto;
+    width: 10rem;
+    margin: 0 auto;
+    text-align: center
+}
+
+.contact-label-text {
+    vertical-align: middle;
+    margin: auto 0
 }
