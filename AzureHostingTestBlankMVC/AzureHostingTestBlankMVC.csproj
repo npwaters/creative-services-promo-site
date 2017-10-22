@@ -71,6 +71,7 @@
     <Content Include="assets\css\site.css" />
     <Content Include="assets\css\contact.css" />
     <Content Include="assets\css\work.css" />
+    <Content Include="assets\fontawesome\font-awesome.min.css" />
     <Content Include="assets\images\0o1a3772-1216_cropped.jpg" />
     <Content Include="assets\images\abstract-blue-architecture_SwGlfk-unGx.jpg" />
     <Content Include="assets\images\AS6_9781-279.jpg" />
@@ -84,6 +85,7 @@
     <Content Include="assets\images\JM-Industrial-YAX_4929.jpg" />
     <Content Include="assets\images\logo.png" />
     <Content Include="packages.config" />
+    <Content Include="assets\fontawesome\fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest3 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
