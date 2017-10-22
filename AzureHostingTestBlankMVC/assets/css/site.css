@@ -24,7 +24,7 @@ a:active {
 #navbar {
     position: relative;
     height: 100%;
-    background-color: lightgray
+    background-color: darkgray
 }
 
 #site-navbar-content-container_fitviewport {
@@ -77,14 +77,14 @@ a:active {
     width: 40%;
     height: 70%;
     text-align: center;
-    background-color: darkgray
+    /*background-color: darkgray*/
 }
 
 .div-heading-text-normal-container {
     position: relative;
     height: 10%;
     width: auto;
-    background-color: azure
+    /*background-color: azure*/
 }
 
 .div-welcome-content-buttons {
@@ -149,7 +149,7 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     display: table;
     width: 80%;
     height: 60%;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
     text-align: center
 }
 
@@ -181,7 +181,7 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
 #footer {
     height: 250px;
     padding: 0 2rem;
-    background-color: lightgray
+    background-color: darkgray
 }
 
 .div-footer-main {
