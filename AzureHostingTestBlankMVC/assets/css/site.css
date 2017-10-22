@@ -19,7 +19,7 @@ a:active {
 }
 
 #header-nav {
-    height: 10%
+    height: 70px
 }
 #navbar {
     position: relative;
@@ -27,9 +27,14 @@ a:active {
     background-color: lightgray
 }
 
-#site-navbar-content-container {
+#site-navbar-content-container_fitviewport {
     height: 100vh;
 }
+
+#site-navbar-content-container-normal {
+    height: 125vh
+}
+
 
 .div-logo {
     padding-left: 2rem;
@@ -121,6 +126,7 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     transform: translate(-50%, -50%);*/
     width: 90%;
     height: 70%;
+    text-align: center
 }
 
 .div-content-button-cta {
@@ -260,4 +266,9 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     margin-left: 2rem;
     max-height: 100%;
     width: auto;
+}
+
+.text-button {
+    vertical-align: middle;
+    color: white
 }
