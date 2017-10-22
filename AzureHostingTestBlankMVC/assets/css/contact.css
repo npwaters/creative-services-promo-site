@@ -6,7 +6,7 @@
     height: 70%;
     width: 80%;
     margin: 0 auto;
-    background-color: blanchedalmond
+    /*background-color: blanchedalmond*/
 
 }
 
@@ -24,7 +24,7 @@
     width: 100%;
     padding: 0.75rem;
     box-sizing: border-box;
-    background-color: cornflowerblue
+    /*background-color: cornflowerblue*/
 }
 
 .contact-content-contact-details-container {
@@ -45,7 +45,7 @@
 .contact-content-external-links {
     height: 50%;
     width: 80%;
-    background-color: lightgray
+    /*background-color: lightgray*/
 }
 
 /*not currently used*/
