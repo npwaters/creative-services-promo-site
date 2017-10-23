@@ -1,4 +1,4 @@
-﻿body {
+﻿    body {
 }
 
 #work-content-work-container {
@@ -26,13 +26,13 @@
 .div-work-content-work-image {
     height: 80%;
     width: auto;
-    background-color: lightgray
+    /*background-color: lightgray*/
 }
 
 .div-work-content-work-text {
     height: 20%;
     width: auto;
-    background-color: darkgray
+    /*background-color: darkgray*/
 }
 
 .img-work {

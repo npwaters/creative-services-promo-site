@@ -44,6 +44,7 @@ a:active {
 
 .site-navbar-content-container-welcome {
     background-image: url(/assets/images/AS6_9781-279.jpg);
+    /*Source: Storyblocks*/
     background-size: cover
 }
 
@@ -109,8 +110,6 @@ a:active {
     /*background-color: darkgray*/
 }
 
-/*centering:
-https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/*/
 
 .div-absolute-centered {
     position: absolute;
@@ -120,6 +119,8 @@ https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-
     bottom: 0;
     right: 0;
 }
+/*(Shaw, 2013)*/
+
 .div-content-button {
     /*top: 50%;
     left: 50%;
