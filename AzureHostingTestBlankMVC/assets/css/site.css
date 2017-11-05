@@ -259,7 +259,7 @@ a:active {
     width: auto;
     height: 100%;
     margin: 0 auto;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     resize: both
 }
 

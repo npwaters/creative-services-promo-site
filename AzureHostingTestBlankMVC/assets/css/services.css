@@ -59,7 +59,7 @@
 .services-content-card-icon {
     height: 35%;
     width: auto;
-    background-color: cornflowerblue
+    /*background-color: cornflowerblue*/
 }
 
 .services-content-card-text {
@@ -72,4 +72,10 @@
 
 #services-text-normal {
     font-size: 1.1rem
+}
+
+
+.services-icon {
+    height: auto;
+    width: 100%
 }

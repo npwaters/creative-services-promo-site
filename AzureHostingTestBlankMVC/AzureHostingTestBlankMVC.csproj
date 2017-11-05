@@ -74,8 +74,14 @@
     <Content Include="assets\fontawesome\font-awesome.min.css" />
     <Content Include="assets\images\0o1a3772-1216_cropped.jpg" />
     <Content Include="assets\images\abstract-blue-architecture_SwGlfk-unGx.jpg" />
+    <Content Include="assets\images\adaptive-design-icon-1.svg" />
+    <Content Include="assets\images\adaptive-design-icon-2.svg" />
+    <Content Include="assets\images\adaptive-design-icon-3.svg" />
+    <Content Include="assets\images\adaptive-design-icon.svg" />
     <Content Include="assets\images\AS6_9781-279.jpg" />
     <Content Include="assets\images\bulb_MJeQqr9_.jpg" />
+    <Content Include="assets\images\coding-icon.svg" />
+    <Content Include="assets\images\e-commerce-icon.svg" />
     <Content Include="assets\images\popular-social-media-icons-on-smartphone-device-screen.jpg" />
     <Content Include="assets\images\DSC_3753-1058_cropped.jpg" />
     <Content Include="assets\images\businessman-working-laptop.jpg" />
