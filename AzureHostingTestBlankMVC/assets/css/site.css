@@ -7,11 +7,17 @@ body {
 
 
 .div-navbar-link:hover {
-    background-color: coral
+    background-color: cornflowerblue
 }
 
-a:active {
-    background-color: coral
+/*highlight active page 
+https://hicksdesign.co.uk/journal/highlighting-current-page-with-css*/ 
+body#welcome div#welcomenav,
+body#about div#aboutnav,
+body#services div#servicesnav,
+body#work div#worknav,
+body#contact div#contactnav {
+    background-color: black
 }
 
 .div-page {
@@ -155,7 +161,7 @@ a:active {
 }
 
 .div-navbar-link-cta {
-    background-color: coral !important
+    background-color: coral /*!important*/
 }
 
 .font-navbar {
