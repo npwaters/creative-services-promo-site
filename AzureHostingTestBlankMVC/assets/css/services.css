@@ -57,6 +57,7 @@
 }
 
 .services-content-card-icon {
+    position: relative;
     height: 35%;
     width: auto;
     /*background-color: cornflowerblue*/

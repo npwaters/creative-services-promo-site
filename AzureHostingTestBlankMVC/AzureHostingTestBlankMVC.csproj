@@ -73,6 +73,14 @@
     <Content Include="assets\css\work.css" />
     <Content Include="assets\fontawesome\font-awesome.min.css" />
     <Content Include="assets\images\0o1a3772-1216_cropped.jpg" />
+    <Content Include="assets\images\about_man_1.jpg" />
+    <Content Include="assets\images\about_man_1_16_9.jpg" />
+    <Content Include="assets\images\about_woman_1.jpg" />
+    <Content Include="assets\images\about_woman_1_16_9.jpg" />
+    <Content Include="assets\images\about_woman_2.jpg" />
+    <Content Include="assets\images\about_woman_2_16_9.jpg" />
+    <Content Include="assets\images\about_woman_3.jpg" />
+    <Content Include="assets\images\about_woman_3_19_9.jpg" />
     <Content Include="assets\images\abstract-blue-architecture_SwGlfk-unGx.jpg" />
     <Content Include="assets\images\adaptive-design-icon-1.svg" />
     <Content Include="assets\images\adaptive-design-icon-2.svg" />

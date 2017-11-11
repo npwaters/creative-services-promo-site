@@ -4,7 +4,7 @@
 
 
 #about-content-text {
-    height: 20%;
+    height: 10%;
     width: 75%;
     margin: 0 auto;
     /*background-color: darkgray*/
@@ -13,7 +13,7 @@
 #about-content-people-container {
     display: table;
     width: 80%;
-    height: auto;
+    height: 40%;
     margin: 0 auto;
     /*background-color: cornflowerblue*/
 }
@@ -33,11 +33,12 @@
     display: table-cell;
     height: 100%;
     width: auto;
-    padding: 0.75rem;
+    padding: 0.5rem;
     box-sizing: border-box;
 }
 
 .div-about-content-people-image {
+    position: relative;
     height: 65%;
     width: 100%;
     border-radius: 50%;
@@ -45,8 +46,10 @@
 }
 
 .div-about-content-people-text {
+    position: relative;
     height: 35%;
-    width: 100%;
+    width: auto;
+    padding: 1rem;
     /*background-color: darkgray;*/
 }
 

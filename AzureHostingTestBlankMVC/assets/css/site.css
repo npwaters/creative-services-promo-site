@@ -89,7 +89,7 @@ body#contact div#contactnav {
 
 .div-heading-text-normal-container {
     position: relative;
-    height: 10%;
+    height: 8%;
     width: auto;
     /*background-color: azure*/
 }
@@ -141,7 +141,7 @@ body#contact div#contactnav {
 }
 
 .div-welcome-button-learnmore {
-    background-color: cadetblue
+    background-color: cornflowerblue
 }
 
 .div-navbar-link-container {
@@ -257,7 +257,7 @@ body#contact div#contactnav {
 }
 
 #header-text-hero {
-    font-size: 2.5rem
+    font-size: 2.25rem
 }
 
 .img-site {
