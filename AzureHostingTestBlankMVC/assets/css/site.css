@@ -17,7 +17,8 @@ body#about div#aboutnav,
 body#services div#servicesnav,
 body#work div#worknav,
 body#contact div#contactnav {
-    background-color: black
+    background-color: black;
+    /*opacity: 0.25*/
 }
 
 .div-page {
