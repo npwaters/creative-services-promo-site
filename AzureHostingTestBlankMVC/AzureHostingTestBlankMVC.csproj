@@ -93,6 +93,8 @@
     <Content Include="assets\images\coding-icon.svg" />
     <Content Include="assets\images\e-commerce-icon-transparent-background.svg" />
     <Content Include="assets\images\e-commerce-icon.svg" />
+    <Content Include="assets\images\logo.svg" />
+    <Content Include="assets\images\logo_1.svg" />
     <Content Include="assets\images\popular-social-media-icons-on-smartphone-device-screen.jpg" />
     <Content Include="assets\images\DSC_3753-1058_cropped.jpg" />
     <Content Include="assets\images\businessman-working-laptop.jpg" />

@@ -42,11 +42,11 @@ body#contact div#contactnav {
 }
 
 
-.div-logo {
+/*.div-logo {
     padding-left: 2rem;
     height: 100%;
     width: auto
-}
+}*/
 
 .site-navbar-content-container-welcome {
     background-image: url(/assets/images/AS6_9781-279.jpg);
@@ -244,6 +244,13 @@ body#contact div#contactnav {
     width: 20%
 }
 
+.div-logo {
+    position: relative;
+    height: 100%;
+    width: 20%;
+    /*background-color: aliceblue*/
+}
+
 .cta-text {
     font-size: 2.2rem
 }
@@ -270,9 +277,8 @@ body#contact div#contactnav {
 }
 
 .img-logo {
-    margin-left: 2rem;
-    max-height: 100%;
-    width: auto;
+    max-height: 60px;
+    width: 200px;
 }
 
 .text-button {
