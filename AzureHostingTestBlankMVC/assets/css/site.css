@@ -114,7 +114,7 @@ body#contact div#contactnav {
 }
 
 .div-welcome-button-container {
-    position: relative;
+    /*position: relative;*/
     width: 50%;
     height: 100%;
     /*background-color: darkgray*/
@@ -135,9 +135,12 @@ body#contact div#contactnav {
     /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);*/
+    position: relative;
+    margin: 0 auto;
     width: 90%;
-    height: 70%;
-    text-align: center
+    height: 100%;
+    text-align: center;
+    border-radius: 1rem
 }
 
 .div-content-button-cta {
@@ -285,7 +288,15 @@ body#contact div#contactnav {
     width: 200px;
 }
 
+/*centre text horizontally and vertically
+http://www.w3.org/Style/Examples/007/center.en.html*/ 
 .text-button {
-    vertical-align: middle;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /*vertical-align: middle;*/
     color: white
 }
