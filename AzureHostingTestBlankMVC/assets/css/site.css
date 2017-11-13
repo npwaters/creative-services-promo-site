@@ -141,11 +141,11 @@ body#contact div#contactnav {
 }
 
 .div-content-button-cta {
-    background-color: coral
+    background-color: rgba(255,127,80,0.8)
 }
 
 .div-welcome-button-learnmore {
-    background-color: cornflowerblue
+    background-color: rgba(169,169,169,0.75)
 }
 
 .div-navbar-link-container {
