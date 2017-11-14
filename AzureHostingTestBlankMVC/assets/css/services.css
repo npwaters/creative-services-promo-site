@@ -33,9 +33,15 @@
 }
 
 
+#services-content-cards-full-width {
+    height: 50%;
+    width: auto;
+    background-color: rgba(169,169,169,0.25)
+}
+
 #services-content-cards {
     display: table;
-    height: 50%;
+    height: 100%;
     width: 90%;
     margin: 0 auto;
     /*background-color: blanchedalmond*/
@@ -53,6 +59,7 @@
 .services-content-card {
     height: 100%;
     width: 100%;
+    border: 1px solid coral;
     /*background-color: cornflowerblue*/
 }
 
