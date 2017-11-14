@@ -9,11 +9,16 @@
     margin: 0 auto;
     /*background-color: darkgray*/
 }
+#about-content-people-container-full-width {
+    height: 35%;
+    width: auto;
+    background-color: rgba(169,169,169,0.25)
+}
 
 #about-content-people-container {
     display: table;
     width: 80%;
-    height: 40%;
+    height: 100%;
     margin: 0 auto;
     /*background-color: cornflowerblue*/
 }
@@ -49,7 +54,7 @@
     position: relative;
     height: 35%;
     width: auto;
-    padding: 1rem;
+    padding: 0 1rem;
     /*background-color: darkgray;*/
 }
 

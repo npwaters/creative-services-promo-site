@@ -236,8 +236,8 @@ body#contact div#contactnav {
 
 .div-cta-text-container {
     position: relative;
-    height: 100%;
-    width: 80%
+    height: 10%;
+    width: 60%
 }
 
 .div-cta-text {
@@ -247,7 +247,7 @@ body#contact div#contactnav {
 
 .div-cta-button-container {
     position: relative;
-    height: 100%;
+    height: 8%;
     width: 20%
 }
 
@@ -290,7 +290,7 @@ body#contact div#contactnav {
 
 /*centre text horizontally and vertically
 http://www.w3.org/Style/Examples/007/center.en.html*/ 
-.text-button {
+.text-absolute-centered {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -298,5 +298,9 @@ http://www.w3.org/Style/Examples/007/center.en.html*/
     margin-right: -50%;
     transform: translate(-50%, -50%);
     /*vertical-align: middle;*/
+    /*color: white*/
+}
+
+.button-text {
     color: white
 }
