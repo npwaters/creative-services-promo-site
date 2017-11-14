@@ -34,7 +34,7 @@ body#contact div#contactnav {
     position: relative;
     height: 100%;
     /*background-color: darkgray*/
-    background-color: rgba(169,169,169,0.75)
+    background-color: rgba(169,169,169,0.25)
 }
 
 #site-navbar-content-container_fitviewport {
@@ -53,7 +53,7 @@ body#contact div#contactnav {
 }*/
 
 .site-navbar-content-container-welcome {
-    background-image: url(/assets/images/AS6_9781-279.jpg);
+    background-image: url(/assets/images/bosporus_1.jpg);
     /*Source: Storyblocks*/
     background-size: cover
 }
@@ -81,7 +81,8 @@ body#contact div#contactnav {
 .div-welcome-content-text-hero {
     height: auto;
     width: 100%;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    color: white
 }
 
 .div-heading-text-normal {
@@ -267,6 +268,7 @@ body#contact div#contactnav {
 }
 #welcome-text-normal {
     font-size: 1.25rem;
+    color: white
     
 }
 
