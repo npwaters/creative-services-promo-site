@@ -83,6 +83,8 @@
     <Content Include="assets\images\e-commerce-icon-transparent-background.svg" />
     <Content Include="assets\images\logo.svg" />
     <Content Include="assets\images\logo_1.svg" />
+    <Content Include="assets\images\woman-using-computer_adjusted_cropped_optimised.jpg" />
+    <Content Include="assets\images\woman-using-computer_adjusted_optimised.jpg" />
     <Content Include="assets\images\work_abstract-blue-architecture.jpg" />
     <Content Include="assets\images\work_bulb-person.jpg" />
     <Content Include="assets\images\work_glass-buildings.jpg" />
@@ -93,6 +95,7 @@
     <Content Include="assets\fontawesome\fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest3 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\dig251a3 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
