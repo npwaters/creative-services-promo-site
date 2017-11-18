@@ -1,9 +1,17 @@
 ﻿    body {
 }
 
+#work-navbar-content-container {
+    height: 150vh
+}
+.div-work-content-text-container {
+    width: auto;
+    height: 14%
+}
+
 #work-content-work-container {
     display: table;
-    height: 60%;
+    height: 50%;
     width: 80%;
     margin: 0 auto;
     /*background-color: cornflowerblue*/
@@ -32,14 +40,11 @@
 .div-work-content-work-text {
     height: 20%;
     width: auto;
-    /*background-color: darkgray*/
+    background-color: darkgray
 }
 
 .img-work {
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    vertical-align: middle;
-    resize: both
+    width: 334px;
+    height: 185px
 }
