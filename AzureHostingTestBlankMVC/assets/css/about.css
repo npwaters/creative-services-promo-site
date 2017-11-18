@@ -4,14 +4,15 @@
 
 
 #about-content-text {
-    height: 10%;
+    height: 15%;
     width: 75%;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
     /*background-color: darkgray*/
 }
 #about-content-people-container-full-width {
-    height: 35%;
+    position: relative;
+    height: 55%;
     width: auto;
     background-color: rgba(169,169,169,0.25)
 }
@@ -19,8 +20,8 @@
 #about-content-people-container {
     display: table;
     width: 80%;
-    height: 100%;
-    margin: 0 auto;
+    height: 90%;
+    /*margin: 0 auto;*/
     /*background-color: cornflowerblue*/
 }
 
@@ -57,5 +58,12 @@
     width: auto;
     padding: 0 1rem;
     /*background-color: darkgray;*/
+}
+
+.about-img-people {
+    height: 235px;
+    width: 235px;
+    border-radius: 50%
+
 }
 
