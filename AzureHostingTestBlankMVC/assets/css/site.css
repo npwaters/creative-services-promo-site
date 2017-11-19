@@ -173,7 +173,7 @@ body#contact div#contactnav {
     width: 80%;
     height: 60%;
     /*background-color: darkgray;*/
-    text-align: center
+    text-align: center;
 }
 
 .div-navbar-link-cta {
@@ -283,7 +283,8 @@ body#contact div#contactnav {
 }
 
 #header-text-hero {
-    font-size: 2.25rem
+    font-size: 2.25rem;
+    font-weight: 700
 }
 
 .img-site {

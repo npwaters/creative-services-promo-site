@@ -90,6 +90,7 @@
     <Content Include="assets\images\work\work-manhattan-buildings-and-skyline.jpg" />
     <Content Include="assets\images\work\work-social-media-icons-on-smartphone.jpg" />
     <Content Include="assets\images\work\work-virtual-innovation-interface-worldwide.jpg" />
+    <Content Include="assets\scripts\jquery-3.2.1.min.js" />
     <Content Include="packages.config" />
     <Content Include="assets\fontawesome\fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
