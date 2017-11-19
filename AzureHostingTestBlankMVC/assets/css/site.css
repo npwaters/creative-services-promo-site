@@ -28,8 +28,16 @@ body#contact div#contactnav {
 }
 
 #header-nav {
-    height: 70px
+    height: 70px;
+    /*position: fixed*/
 }
+
+#navbar-wrapper {
+    position: fixed;
+    width: auto;
+    height: 100%
+}
+
 #navbar {
     position: relative;
     height: 100%;
