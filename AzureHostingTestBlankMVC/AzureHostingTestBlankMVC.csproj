@@ -84,7 +84,6 @@
     <Content Include="assets\images\logo.svg" />
     <Content Include="assets\images\logo_1.svg" />
     <Content Include="assets\images\woman-using-computer_adjusted_cropped_optimised.jpg" />
-    <Content Include="assets\images\woman-using-computer_adjusted_optimised.jpg" />
     <Content Include="assets\images\work\work-abstract-blue-architecture.jpg" />
     <Content Include="assets\images\work\work-bulb-person.jpg" />
     <Content Include="assets\images\work\work-glass-buildings.jpg" />
