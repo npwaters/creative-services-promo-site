@@ -6,7 +6,7 @@ article {
 }
 
 #services-content-container {
-    height: 130vh
+    height: 150vh
 }
 
 #services-content-text-container {
@@ -45,7 +45,7 @@ article {
 
 #services-content-cards {
     display: table;
-    height: 90%;
+    height: 95%;
     width: 80%;
     /*margin: 0 auto;*/
     /*background-color: blanchedalmond*/
@@ -69,13 +69,13 @@ article {
 
 .services-content-card-icon {
     position: relative;
-    height: 35%;
+    height: 32%;
     width: auto;
     /*background-color: cornflowerblue*/
 }
 
 .services-content-card-text {
-    height: 65%;
+    height: 68%;
     width: 100%;
     padding: 0 0.8rem;
     box-sizing: border-box
