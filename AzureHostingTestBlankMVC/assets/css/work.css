@@ -5,8 +5,11 @@
     height: 180vh
 }
 .div-work-content-text-container {
-    width: auto;
-    height: 10%
+    width: 70%;
+    height: 10%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem
 }
 
 #work-content-work-container-full-width {
@@ -44,13 +47,18 @@
 }
 
 .div-work-content-work-text {
+    position: relative;
     height: 20%;
     width: auto;
-    background-color: darkgray
+    /*background-color: darkgray*/
 }
 
 .img-work {
     display: block;
     width: 334px;
     height: 185px
+}
+
+.work-content-work-text {
+    font-weight: 700
 }
