@@ -301,8 +301,6 @@ body#contact div#contactnav {
     width: 200px;
 }
 
-/*centre text horizontally and vertically
-http://www.w3.org/Style/Examples/007/center.en.html*/ 
 .text-absolute-centered {
     margin: 0;
     position: absolute;
@@ -313,8 +311,13 @@ http://www.w3.org/Style/Examples/007/center.en.html*/
     /*vertical-align: middle;*/
     /*color: white*/
 }
+/*(Bos, 2017)*/
 
 .button-text {
     color: white;
     font-weight: 700
+}
+
+.content-section-background {
+    background-color: rgba(169,169,169,0.25)
 }

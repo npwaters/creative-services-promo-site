@@ -2,18 +2,24 @@
 }
 
 #work-navbar-content-container {
-    height: 155vh
+    height: 180vh
 }
 .div-work-content-text-container {
     width: auto;
-    height: 14%
+    height: 10%
+}
+
+#work-content-work-container-full-width {
+    position: relative;
+    height: 50%;
+    width: auto;
 }
 
 #work-content-work-container {
     display: table;
-    height: 47%;
+    height: 83%;
     width: 80%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     /*background-color: cornflowerblue*/
 }
 
