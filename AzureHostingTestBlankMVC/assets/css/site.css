@@ -61,7 +61,7 @@ body#contact div#contactnav {
 }*/
 
 .site-navbar-content-container-welcome {
-    background-image: url(/assets/images/woman-using-computer_adjusted_cropped_optimised.jpg);
+    background-image: url(/assets/images/welcome-woman-using-computer.jpg);
     /*Source: Storyblocks*/
     background-size: cover
 }
@@ -210,17 +210,17 @@ body#contact div#contactnav {
 
 .div-footer-main {
     width: 100%;
-    height: 80%
+    height: 75%
 
 }
 
 .div-footer-disclaimer {
     width: 100%;
-    height: 20%
+    height: 25%
 }
 
 .footer-disclaimer-text {
-    font-size: 0.75rem
+    font-size: 0.70rem
 }
 
 
