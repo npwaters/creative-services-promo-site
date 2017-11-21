@@ -5,6 +5,7 @@
         <title>Creative Web Developers</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"> 
         <link rel="stylesheet" href="assets/css/site.css"/>
+        <script src="assets/scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
     </head>
     <body id="welcome">
         <main>
@@ -15,57 +16,60 @@
                 <!--Header-->
                 <header id="header-nav">
                     <!--Navigation Bar-->
-                    <nav id="navbar"
-                            class="div-page div-layout">
-                        <a href="index.html">
-                            <div class="div-hflow-left div-logo">
-                                <img class="img-logo div-absolute-centered"
-                                        src="assets/images/company-logo.svg"
-                                        alt="company logo"/>
-                                <!--Source: iStock-->
-                            </div>
-                        </a>
-                        <div class="div-hflow-right div-navbar-link-container">
-                            <a href="contact.html">
-                                <div class="div-vertical-center div-navbar-link div-navbar-link-cta"
-                                        id="contactnav">
-                                    <p class="font-navbar">CONTACT</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="div-hflow-right div-navbar-link-container">
-                            <a href="work.html">
-                                <div class="div-vertical-center div-navbar-link"
-                                        id="worknav">
-                                    <p class="font-navbar">WORK</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="div-hflow-right div-navbar-link-container">
-                            <a href="services.html">
-                                <div class="div-vertical-center div-navbar-link"
-                                        id="servicesnav">
-                                    <p class="font-navbar">SERVICES</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="div-hflow-right div-navbar-link-container">
-                            <a href="about.html">
-                                <div class="div-vertical-center div-navbar-link"
-                                        id="aboutnav">
-                                    <p class="font-navbar">ABOUT</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="div-hflow-right div-navbar-link-container">
+                    <div id="navbar-wrapper">
+                        <nav id="navbar"
+                             class="div-page div-layout navbar-transparent">
                             <a href="index.html">
-                                <div class="div-vertical-center div-navbar-link"
-                                        id="welcomenav">
-                                    <p class="font-navbar">HOME</p>
+                                <div class="div-hflow-left div-logo">
+                                    <img class="img-logo div-absolute-centered"
+                                         src="assets/images/company-logo.svg"
+                                         alt="company logo"/>
+                                    <!--Source: iStock-->
                                 </div>
                             </a>
-                        </div>
-                    </nav>
+                            <div class="div-hflow-right div-navbar-link-container">
+                                <a href="contact.html">
+                                    <div class="div-vertical-center div-navbar-link div-navbar-link-cta"
+                                         id="contactnav">
+                                        <p class="font-navbar">CONTACT</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="div-hflow-right div-navbar-link-container">
+                                <a href="work.html">
+                                    <div class="div-vertical-center div-navbar-link"
+                                         id="worknav">
+                                        <p class="font-navbar">WORK</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="div-hflow-right div-navbar-link-container">
+                                <a href="services.html">
+                                    <div class="div-vertical-center div-navbar-link"
+                                         id="servicesnav">
+                                        <p class="font-navbar">SERVICES</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="div-hflow-right div-navbar-link-container">
+                                <a href="about.html">
+                                    <div class="div-vertical-center div-navbar-link"
+                                         id="aboutnav">
+                                        <p class="font-navbar">ABOUT</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="div-hflow-right div-navbar-link-container">
+                                <a href="index.html">
+                                    <div class="div-vertical-center div-navbar-link"
+                                         id="welcomenav">
+                                        <p class="font-navbar">HOME</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                    
                     <!--End Navigation Bar-->    
                 </header>
                 <!--End Header-->
@@ -125,5 +129,29 @@
             </footer>
             <!--End Footer-->
         </main>
+        
+        <script>
+            var mywindow = $(window);
+            var headertext = $("#welcome-text-hero");
+
+            
+            console.log(mywindow.scrollTop());
+            console.log(headertext.offset().top);
+
+            $(window).on('scroll', function () {
+                console.log(mywindow.scrollTop());
+                if (mywindow.scrollTop() < headertext.offset().top - 75) {
+                    console.log("keeping navbar transparent for now!");
+                    $("#navbar").removeClass("navbar-opaque");
+                    $("#navbar").addClass("navbar-transparent");
+                }
+                else {
+                    console.log("turning navbar opaque!");
+                    $("#navbar").removeClass("navbar-transparent");
+                    $("#navbar").addClass("navbar-opaque");
+                }
+
+            })
+        </script>
     </body>
 </html>
