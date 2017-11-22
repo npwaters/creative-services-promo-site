@@ -2,11 +2,12 @@
 }
 
 #work-navbar-content-container {
-    height: 180vh
+    height: 230vh
 }
 .div-work-content-text-container {
+    position: relative;
     width: 70%;
-    height: 10%;
+    height: 15%;
     margin: 0 auto;
     text-align: center;
     font-size: 1.1rem
@@ -20,7 +21,7 @@
 
 #work-content-work-container {
     display: table;
-    height: 83%;
+    height: 90%;
     width: 80%;
     /*margin: 0 auto;*/
     /*background-color: cornflowerblue*/
