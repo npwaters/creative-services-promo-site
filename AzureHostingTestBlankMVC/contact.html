@@ -8,17 +8,6 @@
     <link rel="stylesheet" href="assets/css/contact.css" />
     <link rel="stylesheet" href="assets/fontawesome/font-awesome.min.css" />
     <script src="assets/scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script>
-        function submitform() {
-            alert("Thank you for contacting us!\n" +
-                "The details you entered are:\n" +
-                $("input[name='name']").val() + "\n" +
-                $("input[name='email']").val() + "\n" +
-                $("input[name='phone']").val() + "\n" +
-                "We look forward to working with you!"
-            );
-        }
-    </script>
 </head>
     <body id="contact">
     <main>
@@ -86,7 +75,7 @@
         <!--Contact Us-->
         <section class="section">
             <div id="contact-heading-text-normal-container">
-                <div class="div-heading-text-normal div-absolute-centered">
+                <div class="div-heading-text-normal div-absolute-centered div-nav-opacity-trigger">
                     <header id="header-text-hero">
                         CONTACT US
                     </header>
@@ -210,7 +199,35 @@
     </footer>
     <!--End Footer-->
     </main>
+        <script>
+            function submitform() {
+                alert("Thank you for contacting us!\n" +
+                    "The details you entered are:\n" +
+                    $("input[name='name']").val() + "\n" +
+                    $("input[name='email']").val() + "\n" +
+                    $("input[name='phone']").val() + "\n" +
+                    "We look forward to working with you!"
+                );
+            }
 
+            var mywindow = $(window);
+            var headertext = $("div.div-nav-opacity-trigger");
+            $(window).on('scroll',
+                function() {
+                    console.log(mywindow.scrollTop());
+                    if (mywindow.scrollTop() < headertext.offset().top - 75) {
+                        console.log("keeping navbar transparent for now!");
+                        // check current state to improve performance
+                        $("#navbar").removeClass("navbar-opaque");
+                        $("#navbar").addClass("navbar-transparent");
+                    } else {
+                        console.log("turning navbar opaque!");
+                        $("#navbar").removeClass("navbar-transparent");
+                        $("#navbar").addClass("navbar-opaque");
+                    }
+                });
+            //(taylorleejones, 2013)
+        </script>
         
     </body>
 </html>

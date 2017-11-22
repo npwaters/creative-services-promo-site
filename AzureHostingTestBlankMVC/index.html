@@ -133,11 +133,6 @@
         <script>
             var mywindow = $(window);
             var headertext = $("header.div-nav-opacity-trigger");
-
-            
-            console.log(mywindow.scrollTop());
-            console.log(headertext.offset().top);
-
             $(window).on('scroll',
                 function() {
                     console.log(mywindow.scrollTop());
@@ -151,9 +146,8 @@
                         $("#navbar").removeClass("navbar-transparent");
                         $("#navbar").addClass("navbar-opaque");
                     }
-
                 });
-            //https://stackoverflow.com/questions/20276166/how-do-i-make-my-navbar-change-css-class-upon-scrolling-past-an-anchor-point
+            //(taylorleejones, 2013)
         </script>
     </body>
 </html>

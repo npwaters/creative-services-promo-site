@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"> 
         <link rel="stylesheet" href="assets/css/site.css"/>
         <link rel="stylesheet" href="assets/css/about.css"/>
+        <script src="assets/scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
     </head>
     <body id="about">
         <main>
@@ -73,7 +74,7 @@
                     </header>
                     <!--End Header-->
                     <div class="div-heading-text-normal-container">
-                        <div class="div-absolute-centered div-heading-text-normal">
+                        <div class="div-absolute-centered div-heading-text-normal div-nav-opacity-trigger">
                             <header id="header-text-hero">
                                 ABOUT US
                             </header>
@@ -179,5 +180,24 @@
                 <!--End Footer-->
             </div>
         </main>
+        <script>
+            var mywindow = $(window);
+            var headertext = $("div.div-nav-opacity-trigger");
+            $(window).on('scroll',
+                function() {
+                    console.log(mywindow.scrollTop());
+                    if (mywindow.scrollTop() < headertext.offset().top - 75) {
+                        console.log("keeping navbar transparent for now!");
+                        // check current state to improve performance
+                        $("#navbar").removeClass("navbar-opaque");
+                        $("#navbar").addClass("navbar-transparent");
+                    } else {
+                        console.log("turning navbar opaque!");
+                        $("#navbar").removeClass("navbar-transparent");
+                        $("#navbar").addClass("navbar-opaque");
+                    }
+                });
+            //(taylorleejones, 2013)
+        </script>
     </body>
 </html>
