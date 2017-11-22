@@ -5,19 +5,15 @@ article {
     /*padding-top: 1rem*/
 }
 
-#navbar {
-    background-color: rgba(169,169,169,0.80)
-}
-
 #services-content-container {
     height: 190vh
 }
 
 #services-content-text-container {
     position: relative;
-    height: 15%;
+    height: 20%;
     width: auto;
-    background-color: rgba(255,127,80,0.35)
+    /*background-color: rgba(255,127,80,0.35)*/
 }
 
 #services-content-text {
@@ -43,7 +39,7 @@ article {
 
 #services-content-cards-full-width {
     position: relative;
-    height: 35%;
+    height: 40%;
     width: auto;
 }
 
