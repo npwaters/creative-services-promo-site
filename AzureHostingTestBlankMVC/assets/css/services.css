@@ -2,7 +2,7 @@
 }
 article {
     font-size: 0.85rem;
-    padding-top: 1rem
+    /*padding-top: 1rem*/
 }
 
 #navbar {
@@ -10,17 +10,18 @@ article {
 }
 
 #services-content-container {
-    height: 150vh
+    height: 190vh
 }
 
 #services-content-text-container {
     position: relative;
-    height: 22%;
+    height: 15%;
     width: auto;
     background-color: rgba(255,127,80,0.35)
 }
 
 #services-content-text {
+    position: relative;
     width: 70%;
     height: 90%;
     text-align: center;
@@ -42,7 +43,7 @@ article {
 
 #services-content-cards-full-width {
     position: relative;
-    height: 45%;
+    height: 35%;
     width: auto;
 }
 
@@ -59,7 +60,7 @@ article {
     box-sizing: border-box;
     /*width: auto;*/
     height: 100%;
-    padding: 0.75rem;
+    padding: 0 0.75rem 0.75rem 0.75rem;
     /*border-right: black solid 2px*/
 }
 
@@ -72,16 +73,17 @@ article {
 
 .services-content-card-icon {
     position: relative;
-    height: 32%;
+    height: 50%;
     width: auto;
     /*background-color: cornflowerblue*/
 }
 
 .services-content-card-text {
-    height: 68%;
-    width: 100%;
-    padding: 0 0.8rem;
-    box-sizing: border-box
+    height: 50%;
+    width: 80%;
+    /*padding: 0 0.8rem;*/
+    box-sizing: border-box;
+    margin: 0 auto
     /*background-color: darkgray*/
 }
 
