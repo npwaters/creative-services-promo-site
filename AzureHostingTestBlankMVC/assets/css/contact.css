@@ -2,19 +2,25 @@
 }
 
 #contact-navbar-content-container {
-    height: 130vh
+    height: 140vh
+}
+
+#contact-heading-text-normal-container {
+    position: relative;
+    height: 15%;
+    width: 100%
 }
 
 #contact-map-container {
     width: auto;
-    height: 30%;
+    height: 266px;
     margin: 0 auto
 }
 
 #contact-content-form-image-container-full-width {
     position: relative;
     width: auto;
-    height: 54%;
+    height: 65%;
 }
 
 #contact-content-form-image-container {
@@ -134,4 +140,8 @@ input {
 .contact-label-text {
     vertical-align: middle;
     margin: auto 0
+}
+
+#header-text-hero {
+    color: black !important
 }
