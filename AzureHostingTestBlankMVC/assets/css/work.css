@@ -63,3 +63,8 @@
 .work-content-work-text {
     font-weight: 700
 }
+
+.work-header-hero-image {
+    background-image: url(/assets/images/work/web-designer-looking-at-computer.jpg);
+    background-size: cover
+}

@@ -98,3 +98,8 @@ article {
     height: 150px;
     width: 150px
 }
+
+.services-header-hero-image {
+    background-image: url(/assets/images/services/woman-tapping-the-keyboard-of-a-laptop.jpg);
+    background-size: cover
+}
