@@ -79,7 +79,8 @@
                         <div class="div-layout div-welcome-content-text">
                             <article>
                                 <div class="div-welcome-content-text-hero">
-                                    <header id="welcome-text-hero">
+                                    <header id="welcome-text-hero"
+                                            class="div-nav-opacity-trigger">
                                         We are Creative Web Developers
                                         <!--(Nirmal Web Design Studio, 2016)-->
                                     </header>
@@ -132,26 +133,28 @@
         
         <script>
             var mywindow = $(window);
-            var headertext = $("#welcome-text-hero");
+            var headertext = $("header.div-nav-opacity-trigger");
 
             
             console.log(mywindow.scrollTop());
             console.log(headertext.offset().top);
 
-            $(window).on('scroll', function () {
-                console.log(mywindow.scrollTop());
-                if (mywindow.scrollTop() < headertext.offset().top - 75) {
-                    console.log("keeping navbar transparent for now!");
-                    $("#navbar").removeClass("navbar-opaque");
-                    $("#navbar").addClass("navbar-transparent");
-                }
-                else {
-                    console.log("turning navbar opaque!");
-                    $("#navbar").removeClass("navbar-transparent");
-                    $("#navbar").addClass("navbar-opaque");
-                }
+            $(window).on('scroll',
+                function() {
+                    console.log(mywindow.scrollTop());
+                    if (mywindow.scrollTop() < headertext.offset().top - 75) {
+                        console.log("keeping navbar transparent for now!");
+                        // check current state to improve performance
+                        $("#navbar").removeClass("navbar-opaque");
+                        $("#navbar").addClass("navbar-transparent");
+                    } else {
+                        console.log("turning navbar opaque!");
+                        $("#navbar").removeClass("navbar-transparent");
+                        $("#navbar").addClass("navbar-opaque");
+                    }
 
-            })
+                });
+            //https://stackoverflow.com/questions/20276166/how-do-i-make-my-navbar-change-css-class-upon-scrolling-past-an-anchor-point
         </script>
     </body>
 </html>

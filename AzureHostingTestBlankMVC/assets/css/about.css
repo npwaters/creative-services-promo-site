@@ -6,7 +6,8 @@
 }
 
 #about-content-text {
-    height: 18%;
+    position: relative;
+    height: 22%;
     width: 75%;
     margin: 0 auto;
     text-align: center;

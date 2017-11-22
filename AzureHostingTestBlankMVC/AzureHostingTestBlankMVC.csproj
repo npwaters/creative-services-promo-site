@@ -72,6 +72,8 @@
     <Content Include="assets\css\contact.css" />
     <Content Include="assets\css\work.css" />
     <Content Include="assets\fontawesome\font-awesome.min.css" />
+    <Content Include="assets\images\about\about-young-creative-people-meeting.jpg" />
+    <Content Include="assets\images\about\about-young-creative-people-meeting_blur.jpg" />
     <Content Include="assets\images\about\about_man_1.jpg" />
     <Content Include="assets\images\about\about_woman_1.jpg" />
     <Content Include="assets\images\about\about_woman_2.jpg" />
