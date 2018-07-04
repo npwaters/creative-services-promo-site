@@ -263,5 +263,5 @@ __pycache__/
 # GitHub
 *.sln
 *.config
-Properties/*
 *.csproj
+/AzureHostingTestBlankMVC/Properties
