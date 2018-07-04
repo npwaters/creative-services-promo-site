@@ -93,6 +93,7 @@
     <Content Include="assets\scripts\jquery-3.2.1.min.js" />
     <Content Include="packages.config" />
     <Content Include="assets\fontawesome\fonts\fontawesome-webfont.eot" />
+    <None Include="Properties\PublishProfiles\creative-services-promo-site - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\deadlytest3 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\dig251a3 - Web Deploy.pubxml" />
